@@ -25,7 +25,7 @@ import csv
 # should not be loaded into a City object.
 cities = []
 
-with open('cities.csv', 'r') as csv_file:
+with open("cities.csv") as csv_file:
     csv_reader = csv.reader(csv_file)
     next(csv_reader)
     #for line in csv_reader:
