@@ -38,4 +38,7 @@ vehicles = [
 
 # Go through the vehicles list and print the result of calling drive() on each.
 
+for vehicle in vehicles:
+    print(vehicle.drive())
+
 # TODO
